@@ -1,9 +1,9 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
+import { Message } from './Notification.module';
 
 const Notification = ( {message} ) => {
     return (
-        <span>{message}</span>
+        <Message>{message}</Message>
     )
 }
 
